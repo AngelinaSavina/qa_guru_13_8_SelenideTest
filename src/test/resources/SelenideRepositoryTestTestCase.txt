@@ -1,0 +1,16 @@
+NAME: "В разделе SoftAssertions присутствует пример кода для JUnit 5"
+PRIORITY: CRITICAL
+PRECONDITIONS:
+    - открыть браузер
+    - находимся на стартовой странице "url"
+STEPS:
+    1. Перейти в раздел wiki
+    2. Проверить наличие страницы SoftAssertions в  (Pages)
+    3. Открыть страницу SoftAssertions
+EXPECTED RESULT:
+    - На странице есть пример кода для JUnit5
+
+
+
+
+
