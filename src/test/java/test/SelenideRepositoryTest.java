@@ -15,11 +15,10 @@ public class SelenideRepositoryTest extends TestBase{
         //В "поисковой строке" вести текст и нажать поиск
         $("[data-test-selector=nav-search-input]").setValue("selenide").pressEnter();
         //Открывается страница с результатами поиска. Найти в нем селенид и перейти по ссылке
-        $$("ul.repo-list li").first().$("a").click();
+        $("ul.repo-list li").$("a").click();
         //Проверить что это верная страница, содержащая текст
         $("#repository-container-header").shouldHave(Condition.text("sElinide / selenide"));
 
-        sleep(5000);
     }
 
 

@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class ContributorTest {
 
     @Test
-    void SolntsevShouldBeFirstContributor(){
+    void solntsevShouldBeFirstContributor(){
         //open repository page
         Configuration.browserSize="800x400";
         Selenide.open("https://github.com/selenide/selenide");
